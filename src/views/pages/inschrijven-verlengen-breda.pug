@@ -31,8 +31,8 @@ block content
             //- input(type="hidden" name="recipients" value="administratie_@_vlinderfabriek.nl")
             input(type="hidden" name="good_url" value="../pages/formulier-verzonden.html")
             input(type="hidden" name="bad_url" value="../pages/formulier-niet-verzonden.html")
-            input(type="hidden" name="Locatie" value="verlengen Breda 2020")
-            input(type="hidden" name="subject" value="verlengen Breda 2020")
+            input(type="hidden" name="Locatie" value="verlengen Breda 2022")
+            input(type="hidden" name="subject" value="verlengen Breda 2022")
             fieldset 
                 legend gevens deelnemer / cursist 
                 label(for="firstname") voornaam &amp; achternaam &ast;
@@ -173,9 +173,9 @@ block content
                     option kies cursus en locatie &ast;
                         optgroup(label="Locatie: Breda") 
                             option(value="Locatie: Breda de Vlinderklas ") de Vlinderklas
-                            option(value="Locatie: Breda Spelersklas 1") Spelersklas 1
-                            option(value="Locatie: Breda Spelersklas 2") Spelersklas 2
-                            option(value="Locatie: Breda Fabriek") de Fabriek
+                            option(value="Locatie: Breda Spelersklas 1") Spelersklas 1 &amp; 2
+                            //- option(value="Locatie: Breda Spelersklas 2") Spelersklas 2
+                            //- option(value="Locatie: Breda Fabriek") de Fabriek
                             option(disabled label=" ") 
                         //- optgroup(label="Locatie: Prinsenbeek")
                             option(value="Locatie: Prinsenbeek de Vlinderklas") de Vlinderklas
@@ -237,8 +237,8 @@ block content
                     option(value="december") december
                 select(name="jaar van ondertekening" required) 
                     option(value="" disabled selected) jaar &ast;
-                    option(value="2020") 2020
-                    option(value="2021") 2021
+                    option(value="2020") 2022
+                    //- option(value="2021") 2021
                 p(class="form__subscribe__starObligated") &ast; verplicht
             div 
                 fieldset(class="form__subscribe__confirmation")
